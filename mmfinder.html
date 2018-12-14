@@ -1,4 +1,4 @@
-<!doctype html>
+
 
 <head>
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
@@ -6,7 +6,7 @@
     <title>Marvel Movie Finder - All the Latest Trailers</title>
 </head>
 
-<body>
+<body onload = "loadData()">
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -36,8 +36,8 @@
             
             <div class="btn-group" role="group" id="controls">
                 
-                <button class="btn btn-primary" id="last">Previous Trailer</button>
-                <button class="btn btn-primary" id="next">Next Trailer</button>
+                <button class="btn btn-primary" id="last" onclick="lastVideo()">Previous Trailer</button>
+                <button class="btn btn-primary" id="next" onclick="nextVideo()">Next Trailer</button>
             </div>
         </div>
 

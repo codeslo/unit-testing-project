@@ -71,6 +71,6 @@ describe('buildVieoArray test',function(){
     });
 });
 
-// displayVideo test
+// displayVideo would be tested using integration testing as it just manipulates the DOM. 
 
 
